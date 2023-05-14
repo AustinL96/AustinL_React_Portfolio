@@ -1,0 +1,37 @@
+.aboutMe {
+    
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-items: center; /* Center the grid items horizontally */
+    align-items: center; /* Center the grid items vertically */
+    gap: 50px; /* Add some spacing between the grid items */
+    margin: 15px 200px;
+  }
+
+.aboutMeContainer {
+    background-color: var(--dark-slate-gray);
+    color: var(--ash-gray);
+    border: 2px solid var(--ash-gray);
+    border-radius: 10px;
+    box-shadow: 0 0 20px 2px lightblue;
+
+}
+
+h2 {
+    color: white;
+    -webkit-text-stroke-width: .75px;
+    -webkit-text-stroke-color: var(--oxford-blue);
+    text-align: center;
+    padding: 3px;
+}
+p {
+    padding: 3px;
+}
+
+.profileImage {
+    width: 60%;
+    height: auto;
+    border: 3px solid var(--ash-gray);
+    border-radius: 50%;
+    box-shadow: 0 0 20px 2px lightblue;
+}

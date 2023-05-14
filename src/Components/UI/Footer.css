@@ -1,0 +1,39 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(var(--ash-gray), var(--paynes-gray));
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid var(--ash-gray);
+    box-shadow: 0 0 20px 2px lightblue;
+}
+
+footer h3 {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    margin: 25px 0px;
+    padding: 0 25px;
+  }
+
+footer h3:hover:after {
+    transform: scaleX(1);
+    transform-origin: initial;
+}
+
+footer h3:after {
+    content: '';
+    position: absolute;
+    background-color: var(--oxford-blue);
+    transition: transform 0.3s ease-out;
+    width: 100%;
+    align-content: center;
+    transform: scaleX(0);
+    height: 3px;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+  }

@@ -1,0 +1,50 @@
+header {
+    
+    background-image: linear-gradient(var(--paynes-gray), var(--ash-gray));
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 5%;
+    border-bottom: 2px solid var(--ash-gray);
+    box-shadow: 0 0 20px 2px lightblue;
+}
+
+header h1 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--oxford-blue);
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+  }
+  
+header nav a {
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+header nav a:hover:after {
+    transform: scaleX(1);
+    transform-origin: initial;
+}
+
+header nav a:after {
+    content: '';
+    position: absolute;
+    background-color: white;
+    transition: transform 0.3s ease-out;
+    width: 100%;
+    align-content: center;
+    transform: scaleX(0);
+    height: 3px;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+  }
+
+header nav a.active {
+    color: var(--oxford-blue);
+}
