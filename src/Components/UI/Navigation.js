@@ -28,7 +28,7 @@ function Navigation(props) {
             Contact
           </a>
           <span>|</span>
-          <a href="#">Resume</a>
+          <a href="/AustinLDeveloperResume.pdf" download>Download My Resume 📩</a>
         </nav>
       );
 }

@@ -16,6 +16,7 @@ header h1 {
 }
 
 header nav a {
+    font-weight: bold;
     text-decoration: none;
     color: white;
     position: relative;
@@ -26,12 +27,12 @@ header nav a {
     margin-left: 8px;
 }
 
-header nav a:hover:after {
+header nav a:not(:last-child):hover:after {
     transform: scaleX(1);
     transform-origin: initial;
 }
 
-header nav a:after {
+header nav a:not(:last-child):after {
     content: '';
     position: absolute;
     background-color: white;
