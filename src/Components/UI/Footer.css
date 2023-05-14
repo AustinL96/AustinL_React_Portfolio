@@ -27,7 +27,7 @@ footer h3:hover:after {
 footer h3:after {
     content: '';
     position: absolute;
-    background-color: var(--oxford-blue);
+    background-color: white;
     transition: transform 0.3s ease-out;
     width: 100%;
     align-content: center;

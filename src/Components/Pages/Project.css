@@ -26,7 +26,6 @@
 
 /* Each individual image, plus title and hover over description */
 .imgContainer {
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -34,6 +33,7 @@
 
 /* Project screenshots */
 .portImages {
+    position: relative;
   border: 2px solid black;
   box-shadow: 0 0 20px 2px black;
   transition: box-shadow 0.3s;
@@ -46,13 +46,31 @@
 /* Transparent div that appears over screenshot with description */
 .imgOverlay {
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
   color: white;
-  padding: 10px;
   opacity: 0;
   transition: opacity 0.3s;
+  padding: 1px;
+  margin: 0px 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .imgContainer:hover .imgOverlay {
   opacity: 1;
+}
+
+.imgOverlay p {
+    max-width: 100%;
+    word-wrap: normal;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.linkDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
 }
