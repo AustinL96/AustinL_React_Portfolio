@@ -1,5 +1,5 @@
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     background-image: linear-gradient(var(--ash-gray), var(--paynes-gray));
@@ -11,7 +11,7 @@ footer {
     box-shadow: 0 0 20px 2px lightblue;
 }
 
-footer h3 {
+footer a, footer span {
     text-decoration: none;
     color: white;
     position: relative;
@@ -19,17 +19,18 @@ footer h3 {
     padding: 0 25px;
   }
 
-footer h3:hover:after {
+footer a:hover:after {
     transform: scaleX(1);
     transform-origin: initial;
 }
 
-footer h3:after {
+footer a:after {
     content: '';
     position: absolute;
     background-color: white;
     transition: transform 0.3s ease-out;
-    width: 100%;
+    width: 60%;
+    margin: auto;
     align-content: center;
     transform: scaleX(0);
     height: 3px;

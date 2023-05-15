@@ -3,11 +3,12 @@ import './Footer.css';
 function Footer() {
     return (
         <footer>
-            <h3>Github</h3>
+            <a href='https://github.com/AustinL96' target='_blank'>Github</a>
             <span>|</span>
-            <h3>LinkedIn</h3>
+            <a href='https://www.linkedin.com/in/austin-lewis-888890130' target='_blank'>LinkedIn</a>
             <span>|</span>
-            <h3>Stack Overflow</h3>
+            <a>austinlewis165@gmail.com</a>
+            <p>© 2023 Austin Lewis - All rights reserved.</p>
         </footer>
         
     )
