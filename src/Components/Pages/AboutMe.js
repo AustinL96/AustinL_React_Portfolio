@@ -13,7 +13,7 @@ function AboutMe() {
                 </p>
             </div>
             <div className="imageContainer">
-                <img className="profileImage" src="/AustinLewis.png" alt="A profile picture of Austin Lewis" />
+                <img className="profileImage" src={process.env.PUBLIC_URL + "/AustinLewis.png"} alt="Austin Lewis" />
             </div>
         </div>
     )
