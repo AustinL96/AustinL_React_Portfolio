@@ -9,7 +9,7 @@ A portfolio for myself to hopefully be successful in reaching out to companies t
 This project is licensed under the MIT license.
 
 ## Usage
-Made using React. To access the deployed portfolio, visit here!
+Made using React. To access the deployed portfolio, visit [here](https://austinlewisdeveloper.netlify.app/)!
 
 Below are some screenshots of the finished website!
 ![alt text](./public/PortfolioPreview1.png)
